@@ -1,0 +1,26 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Video Page</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header id="animated-header">🎵 Welcome to My Music Video 🎵</header>
+
+    <main>
+        <section class="video-container">
+            <!-- Embed YouTube video -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/L3wKzyIN1yk?si=i71orkFjYHvw5E5B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <script src="~/js/site.js"></script>
+</body>
+</html>
